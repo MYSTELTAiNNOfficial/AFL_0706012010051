@@ -1,12 +1,12 @@
 <nav class="navbar navbar-expand-sm">
     <div class="container-fluid">
         <div class="collapse navbar-collapse" id="mynavbar">
-            <a class="navbar-brand" href="#">Random Boss</a>
+            <a class="navbar-brand" href="/">PrivateLibra.ry</a>
             <ul class="nav nav-pills">
                 <li class="nav-item"><a class="nav-link {{($title == 'HOME')?'active':''}}" href="/">HOME</a></li>
                 <li class="nav-item"><a class="nav-link {{($title == 'BOOK')?'active':''}}" href="{{route('books.index')}}">Book</a></li>
                 <li class="nav-item"><a class="nav-link {{($title == 'BOOKSHELF')?'active':''}}" href="{{route('bookshelfs.index')}}">Rack Book</a></li>
-                <li class="nav-item"><a class="nav-link {{($title == 'CONTACT')?'active':''}}" href="/about">About</a></li>
+                <li class="nav-item"><a class="nav-link {{($title == 'ABOUT')?'active':''}}" href="/about">About</a></li>
             </ul>
         </div>
         <div class="form-check form-switch">

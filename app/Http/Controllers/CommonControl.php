@@ -8,7 +8,7 @@ use App\Models\Book;
 class CommonControl extends Controller
 {
     public function about () {
-        return view('about',['title' =>'CONTACT']);
+        return view('viewdata.about',['title' =>'ABOUT']);
     }
 
     public function index () {
