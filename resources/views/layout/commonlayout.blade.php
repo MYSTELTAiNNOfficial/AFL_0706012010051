@@ -13,7 +13,7 @@
 
 <body>
     @include('layout.navigation')
-    <div class="container mt-5">
+    <div class="container my-5 p-5">
         <h1 class="mb-4">@yield('pagetitle')</h1>
         @yield('main_content')
     </div>

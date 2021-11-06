@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm">
+<nav class="navbar navbar-expand-sm fixed-top">
     <div class="container-fluid">
         <div class="collapse navbar-collapse" id="mynavbar">
             <a class="navbar-brand" href="/">PrivateLibra.ry</a>
@@ -15,7 +15,7 @@
         </div>
     </div>
 </nav>
-<nav class="navbar navbar-expand-sm fixed-bottom justify-content-center">
+<nav class="navbar navbar-expand-sm fixed-bottom justify-content-center mt-5">
     <a class="navbar-brand">Created by SPR @ 2021</a>
 </nav>
 <script>

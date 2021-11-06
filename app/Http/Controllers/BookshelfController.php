@@ -14,7 +14,7 @@ class BookshelfController extends Controller
      */
     public function index()
     {
-        $bookshelfs = Bookshelf::all();
+        $bookshelfs = Bookshelf::paginate(9);
         return view('viewdata.rackindex',compact('bookshelfs'),['title' =>'BOOKSHELF']);
     }
 

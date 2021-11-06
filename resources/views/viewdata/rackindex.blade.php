@@ -24,4 +24,5 @@
     @endforeach
 </div>
 @endforeach
+{{$bookshelfs->links()}}
 @endsection
