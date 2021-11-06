@@ -16,7 +16,7 @@ and if you have Windows, read it in [this section](https://getcomposer.org/doc/0
 2. Clone this project
 3. Now go to your folder where you clone this project. You can see there's file named ".env.example", you can copy it and rename to ".env"
 4. Open you terminal with right-click > open terminal in this folder or like something. Or you can type in your terminal or cmd `cd /your_destination_folder`
-5. Make sure the destination is your folder, after that type this to your:
+5. Make sure the destination is your folder, after that type this to your terminal:
      ```bash
     php artisan key:generate
     ```
