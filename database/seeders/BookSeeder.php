@@ -3,10 +3,9 @@
 namespace Database\Seeders;
 
 use App\Models\Book;
-use App\Models\Bookshelf;
 use Illuminate\Database\Seeder;
 
-class MainSeeder extends Seeder
+class BookSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,7 +14,6 @@ class MainSeeder extends Seeder
      */
     public function run()
     {
-        Bookshelf::factory()->count(50)->create();
         Book::factory()->count(200)->create();
     }
 }
