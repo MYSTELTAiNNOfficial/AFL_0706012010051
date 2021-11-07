@@ -23,7 +23,7 @@ class BookFactory extends Factory
             'author'=>$this->faker->firstName(),
             'publisher'=>$this->faker->company(),
             'type_name'=> function(){
-                $bookshelf = Bookshelf::inRandomOrder()->first();
+                $bookshelf = Bookshelf::all()->shuffle()->get(1);
                 return $bookshelf->code;
             }
         ];
