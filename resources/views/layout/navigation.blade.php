@@ -51,6 +51,7 @@
         $("#table").addClass("table-dark");
         $("#tableshow").addClass("table-dark").removeClass("table-light");
         $(".btn-info").addClass("btn-outline-info").removeClass("btn-info");
+        $("#rec").removeClass("carousel-dark");
         $(".btn-warning").addClass("btn-outline-warning").removeClass("btn-warning");
         $(".btn-danger").addClass("btn-outline-danger").removeClass("btn-danger");
         $(".btn-success").addClass("btn-outline-success").removeClass("btn-success");
@@ -72,6 +73,7 @@
         $(".btn-outline-success").addClass("btn-success").removeClass("btn-outline-success");
         $(".card-header").addClass("bg-light").removeClass("bg-dark");
         $(".card-body").removeClass("bg-secondary");
+        $("#rec").addClass("carousel-dark");
         $(".card-footer").addClass("bg-light").removeClass("bg-dark");
         $(".modal-header").removeClass("bg-secondary");
         $(".modal-body").removeClass("bg-dark");
