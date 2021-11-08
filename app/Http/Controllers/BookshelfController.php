@@ -83,7 +83,7 @@ class BookshelfController extends Controller
             'type_name'=>$request->tbname,
             'description'=>$request->desc,
         ]);
-        return redirect(route('bookshelfs.show', $bookshelf));
+        return redirect(route('bookshelfs.show', $request->rcode));
     }
 
     /**
